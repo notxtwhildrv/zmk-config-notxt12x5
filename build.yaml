@@ -21,5 +21,3 @@ include:
   - board: nice_nano_v2
     shield: notxt12x5
     snippet: zmk-usb-logging
-    shield: settings_reset
-    
