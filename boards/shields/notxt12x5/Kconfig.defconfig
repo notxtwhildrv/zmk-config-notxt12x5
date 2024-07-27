@@ -3,6 +3,4 @@ if SHIELD_NOTXT12X5
 config ZMK_KEYBOARD_NAME
     default "notxt12x5"
 
-CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y
-
 endif
