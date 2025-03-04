@@ -1,0 +1,8 @@
+file_format: "1"
+id: wallet42
+name: wallet42
+type: shield
+url: https://github.com/notxtwhildrv/zmk-config-notxt12x5
+requires: [nice_nano_v2]
+features:
+  - keys
