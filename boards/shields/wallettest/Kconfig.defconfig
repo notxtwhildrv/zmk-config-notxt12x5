@@ -1,0 +1,9 @@
+if SHIELD_WALLETTEST
+
+config ZMK_KEYBOARD_NAME
+    default "wallettest"
+
+config ZMK_USB
+    default y
+    
+endif
