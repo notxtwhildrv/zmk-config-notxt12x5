@@ -1,0 +1,9 @@
+if SHIELD_WALLETLED
+
+config ZMK_KEYBOARD_NAME
+    default "walletled"
+
+config ZMK_USB
+    default y
+    
+endif
