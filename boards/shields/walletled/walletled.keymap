@@ -74,7 +74,7 @@
             bindings = <
                 &tog 4       &kp F1       &kp F3       &kp F4       &kp F5       &kp F6       &kp F7     &kp F8     &kp F9 &kp F10 &kp F11 &bt BT_CLR
                 &out OUT_TOG &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_PRV &bt BT_NXT &none  &none   &none   &kp LA(PSCRN)
-                &studio_unlock       &none        &D        &none        &none        &none        &none      &none      &none  &none   &none   &kp LC(DEL)
+                &studio_unlock       &none        &kp D        &none        &none        &none        &none      &none      &none  &none   &none   &kp LC(DEL)
                                                       &trans &trans &none   &none &trans    &trans     
             >;
         };
