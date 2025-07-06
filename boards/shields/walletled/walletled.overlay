@@ -63,13 +63,13 @@
         compatible = "gpio-leds";
         status = "okay";
         led0: led_0 {
-            gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
+            gpios = <&gpio1 1 GPIO_ACTIVE_LOW>;
         };
         led1: led_1 {
-            gpios = <&gpio1 2 GPIO_ACTIVE_HIGH>;
+            gpios = <&gpio1 2 GPIO_ACTIVE_LOW>;
         };
         led2: led_2 {
-            gpios = <&gpio1 7 GPIO_ACTIVE_HIGH>;
+            gpios = <&pro_micro 21 GPIO_ACTIVE_LOW>;
         };
     };
 };
