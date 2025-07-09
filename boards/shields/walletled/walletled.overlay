@@ -69,7 +69,7 @@
             gpios = <&gpio1 2 GPIO_ACTIVE_LOW>;
         };
         led2: led_2 {
-            gpios = <&pro_micro 21 GPIO_ACTIVE_LOW>;
+            gpios = <&gpio1 7 GPIO_ACTIVE_LOW>;
         };
     };
 };
