@@ -1,7 +1,7 @@
-if SHIELD_NOTXT12X5
+if SHIELD_WALLET42
 
 config ZMK_KEYBOARD_NAME
-    default "notxt12x5"
+    default "wallet42"
 
 config ZMK_USB
     default y
