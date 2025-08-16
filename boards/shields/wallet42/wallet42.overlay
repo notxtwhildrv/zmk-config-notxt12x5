@@ -51,3 +51,25 @@
         ;
     };
 };
+
+/ {
+    aliases {
+        led-red = &led0;
+        led-green = &led1;
+        led-blue = &led2;
+    };
+
+    rgb_leds: leds {
+        compatible = "gpio-leds";
+        status = "okay";
+        led0: led_0 {
+            gpios = <&pro_micro 1 GPIO_ACTIVE_LOW>;
+        };
+        led1: led_1 {
+            gpios = <&gpio1 1 GPIO_ACTIVE_LOW>;
+        };
+        led2: led_2 {
+            gpios = <&pro_micro 0 GPIO_ACTIVE_LOW>;
+        };
+    };
+};
