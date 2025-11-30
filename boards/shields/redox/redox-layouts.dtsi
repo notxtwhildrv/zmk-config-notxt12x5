@@ -7,7 +7,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    redox_physical_layout: redox_physical_layout {
+    physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default";
 
