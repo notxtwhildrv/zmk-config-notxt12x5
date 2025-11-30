@@ -1,7 +1,7 @@
-if SHIELD_NOTXT12X5
+if SHIELD_REDOX
 
 config ZMK_KEYBOARD_NAME
-    default "notxt12x5"
+    default "redox"
 
 config ZMK_USB
     default y
