@@ -1,12 +1,13 @@
 #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
 
+
 / {
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout0;
     };
     
-    matrix_transform: keymap_transform0 {
+    default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <12>; // Length of the "col-gpios" array
         rows = <4>; // Length of the "row-gpios" array
