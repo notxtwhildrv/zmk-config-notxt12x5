@@ -7,6 +7,14 @@
         zmk,physical-layout = &default_transform;
     };
     
+    left_encoder: encoder_left {
+        compatible = "alps,ec11";
+        a-gpios = <PIN_A (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <PIN_B (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <80>;
+        status = "disabled";
+    };
+        
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <12>; // Length of the "col-gpios" array
@@ -49,13 +57,6 @@
     };
 };
 
-    left_encoder: encoder_left {
-        compatible = "alps,ec11";
-        a-gpios = <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <=pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <80>;
-        status = "disabled";
-    };
 
 /*
  * PS/2 Mouse / Trackpoint - User Configuration
